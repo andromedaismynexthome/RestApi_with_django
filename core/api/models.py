@@ -16,6 +16,9 @@ class Company(models.Model):
     added_date = models.DateTimeField(auto_now=True)
     active = models.BooleanField(default = True)
 
+    def __str__(self):
+        return self.name
+
 # creating employee models
 class Employee(models.Model):
     Employee_Name = models.CharField(max_length=50)
