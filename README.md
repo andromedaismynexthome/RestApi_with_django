@@ -1,5 +1,4 @@
 # Simple Restapi with django rest_framework
-<hr>
 
 ## clone the repository
 ```Bash
