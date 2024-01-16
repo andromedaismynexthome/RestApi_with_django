@@ -1,17 +1,28 @@
 #Simple Restapi with django rest_framework
 <hr>
-<ol>
-<li>clone the repository</li>
->git clone https://github.com/andromedaismynexthome/RestApi_with_django.git
-<li>u get a file name RestApi_with_django </li>
-<li>go in that file</li>
->cd RestApi_with_django
-<li>now create virtual environment </li>
+
+##clone the repository
+'''git
+git clone https://github.com/andromedaismynexthome/RestApi_with_django.git
+'''
+u get a file name RestApi_with_django
+###go in that file
+'''
+cd RestApi_with_django
+'''
+##now create virtual environment
+'''
 > python3 -m venv env
-<li>now activate virtual environment</li>
+'''
+##now activate virtual environment
+'''
 > env/Scripts/activate
-<li>Now install depencies</li>
+'''
+##Now install depencies
+'''
 > pip install django && djangorestframework
-<li>now everything is set and now run server</li>
+'''
+##now everything is set and now run server
+'''
 >cd core && python manage.py runserver
-</ol>
+'''
