@@ -12,10 +12,17 @@ class Companyviewset(viewsets.ModelViewSet):
     # we creating custom urls companies/primarykey/employees
     @action(detail=True, methods=['get'])
     def employees(self,request,pk=None):
-        company = Company.objects.get(pk=pk)
-        emps = Employee.objects.filter(company=company)
-        emps_serializer = Employeeserializer(emps,many=True,context={'request':request})
-        return Response(emps_serializer.data)
+        try:
+
+            company = Company.objects.get(pk=pk)
+            emps = Employee.objects.filter(company=company)
+            emps_serializer = Employeeserializer(emps,many=True,context={'request':request})
+            return Response(emps_serializer.data)
+        except Exception as e:
+            print(e)
+            return Response({
+                'message':'comany might not exits'
+            })
 
 
 
