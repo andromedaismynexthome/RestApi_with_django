@@ -2,27 +2,27 @@
 <hr>
 
 ##clone the repository
-'''git
+```Bash
 git clone https://github.com/andromedaismynexthome/RestApi_with_django.git
-'''
+```
 u get a file name RestApi_with_django
 ###go in that file
-'''
+```Bash
 cd RestApi_with_django
-'''
-##now create virtual environment
-'''
+```
+##ow create virtual environment
+```
 > python3 -m venv env
-'''
+```
 ##now activate virtual environment
-'''
+```
 > env/Scripts/activate
-'''
+```
 ##Now install depencies
-'''
+```
 > pip install django && djangorestframework
-'''
+```
 ##now everything is set and now run server
-'''
+```
 >cd core && python manage.py runserver
-'''
+```
