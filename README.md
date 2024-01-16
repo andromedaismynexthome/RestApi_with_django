@@ -12,17 +12,17 @@ cd RestApi_with_django
 ```
 ## now create virtual environment
 ```
-> python3 -m venv env
+python3 -m venv env
 ```
 ## now activate virtual environment
 ```
-> env/Scripts/activate
+env/Scripts/activate
 ```
 ## Now install depencies
 ```
-> pip install django && djangorestframework
+pip install django && djangorestframework
 ```
 ## now everything is set and now run server
 ```
->cd core && python manage.py runserver
+cd core && python manage.py runserver
 ```
