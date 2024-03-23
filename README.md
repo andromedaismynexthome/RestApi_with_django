@@ -1,4 +1,17 @@
 # Simple Restapi with django rest_framework
+## Overview
+
+This project aims to demonstrate the implementation of a REST API in Django, leveraging the Django REST Framework (DRF). By following this guide, you'll be able to create a powerful backend for your web or mobile applications, allowing seamless interaction with your Django project's data.
+
+## Features
+
+- **HTTP Methods**: Utilize standard HTTP methods such as GET, POST, PUT, DELETE, etc., for interacting with resources.
+- **Serializers**: Convert complex data types into native Python data types and vice versa for easy serialization and deserialization.
+- **Authentication & Permissions**: Integrate authentication and permission systems to control access to API endpoints.
+- **Pagination & Filtering**: Implement pagination and filtering to manage the amount of data returned by API endpoints.
+- **Nested Relationships**: Represent complex data structures and model relationships in API responses.
+- **Browsable API**: Use a browsable API interface for easier exploration and testing during development.
+
 
 ## clone the repository
 ```Bash
@@ -15,7 +28,7 @@ python3 -m venv env
 ```
 ## now activate virtual environment
 ```
-env/Scripts/activate
+source env/Scripts/activate
 ```
 ## Now install depencies
 ```
